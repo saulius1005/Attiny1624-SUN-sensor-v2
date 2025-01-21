@@ -37,8 +37,6 @@ Last photos of the sensor (with callibration ruller):
 
 ## Photodiode and photoresistor tester stand:
 ![20241031_204205](https://github.com/user-attachments/assets/dd5e1c7a-f2db-4b52-a67b-d3b258cdbfe7)
-
-## And conclusions:
 ![Ekrano kopija 2025-01-21 011249](https://github.com/user-attachments/assets/f80c25ff-337c-423b-959d-d7cc374680d6)
 
 ## Also, the differences between the sensors under the same lighting conditions:
