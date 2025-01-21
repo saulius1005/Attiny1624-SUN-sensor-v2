@@ -1,6 +1,5 @@
 # Project Terminated. 
-## Reason: 
-**The position of the Sun in the sky doesn't change :D.**
+## Reason: **The position of the Sun in the sky doesn't change :D.**
 This program was written before I started using GitHub, so it will be impossible to restore the last working version (all attempts to comment out parts of the code—mainly in the elevation.c and azimuth.c sections—were unsuccessful).
 
 This Sun sensor was designed right after the successful trial of the "Simple Attiny1624 Sun Position Sensor." 
