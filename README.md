@@ -18,7 +18,7 @@ After numerous experiments and modifications, the same story repeated itself: th
 Theoretically, sunlight around the sensor should graphically resemble a sinusoid in terms of azimuth and an arc in terms of elevation. The peaks would correspond to the azimuth and elevation angles. Of course, for intermediate values, I initially used sinusoidal interpolation, then Lagrange, spline, and every other method I could think of. The result was always the same: azimuth calculations were relatively decent since they were determined based on data from three rows of sensors: 15 in the first row, 12 in the second, 4 in the third, and 1 in the fourth. Naturally, the interpolation factored in the weight of each row in the overall result.
 
 However, with elevation, it was a different story. Since elevation was calculated based on the interpolated maxima of three rows and the data from the fourth row sensor, the calculated values were completely unrepresentative of the real ones.
-Until one day, the thought crossed my mind: The position of the Sun relative to the Earth doesn’t change... It has moved, moves, and will continue to move the same way for thousands of years.
+Until one day, the thought crossed my mind: **The position of the Sun relative to the Earth doesn’t change... It has moved, moves, and will continue to move the same way for thousands of years.**
 And only after that, this option was chosen:
 https://youtu.be/cBCFJO9GvYM
 https://github.com/saulius1005/Attiny212-clock.git 
